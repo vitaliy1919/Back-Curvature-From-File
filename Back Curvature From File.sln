@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Back Curvature From File", "KDTEST1\Back Curvature From File.csproj", "{5E06E399-9F6E-40B0-96A6-6FA1F58590B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Back Curvature From File", "Back Curvature From File\Back Curvature From File.csproj", "{5E06E399-9F6E-40B0-96A6-6FA1F58590B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
