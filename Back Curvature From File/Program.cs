@@ -46,7 +46,6 @@ namespace KDTEST1
                 {
                     int realAdjacentPointCount = 0;
                     double distanceMetrics = 0.0;
-                    int num10 = 0;
                     for (int iter = 0; iter < (adjacentPointNumber / 2); iter++)
                     {
                         if (iter + i < row.Count)
