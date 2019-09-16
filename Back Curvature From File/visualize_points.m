@@ -1,17 +1,14 @@
-X = csvread('writeNewFiltered.txt');
-X1= csvread('writeNew.txt');
-XRotated= csvread('writeRotated.txt');
-sPoints = csvread('spinePoints.txt');
+pointsFiltered = csvread('points_filtered.txt');
+points= csvread('points.txt');
+spinePoints = csvread('spine_points.txt');
 
-a = X(:,1);
-b = X(:,2);
-c = X(:,3);
-a1 = X1(:,1);
-b1 = X1(:,2);
-c1 = X1(:,3);
-ar = XRotated(:,1);
-br = XRotated(:,2);
-cr = XRotated(:,3);
+a = pointsFiltered(:,1);
+b = pointsFiltered(:,2);
+c = pointsFiltered(:,3);
+
+a1 = points(:,1);
+b1 = points(:,2);
+c1 = points(:,3);
 
 sA = sPoints(:,1);
 sB = sPoints(:,2);
@@ -23,15 +20,15 @@ maxB = max(sB);
 % splineP = spline(sA,sB,pointsA);
 % minS = 
 % scatter3(a,b,c);
-title('Combine Plots')
+title('Vizualization')
 
 hold on
 axis equal
 scatter3(a,b,c, 25);
 scatter(sA,sB, 50, 'green','filled');
-% plot(sA,sB);
-plot(sA,sB); 
-% plot(sAs,sB);
 scatter3(a1,b1,c1, 2, 'red');
+% plot(sA,sB);
+% plot(sA,sB); 
+% plot(sAs,sB);
 % scatter3(ar,br,cr, 2, 'blue');
 hold off
