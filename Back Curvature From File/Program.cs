@@ -4,10 +4,7 @@ using System.Diagnostics;
 using System.IO;
 
 namespace KDTEST1
-{
-
-
-
+{ 
     class Program
     {
         private static void AlternativeTest(string fileName)
